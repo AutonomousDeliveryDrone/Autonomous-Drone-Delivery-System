@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" rowHeight="135" id="KGk-i7-Jjw" customClass="CategoryCell" customModule="DeliveryDroneEcommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="135"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clothes" translatesAutoresizingMaskIntoConstraints="NO" id="u4k-U0-wfw">
+                        <rect key="frame" x="10" y="5" width="326" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="ja8-iN-fQJ"/>
+                            <constraint firstAttribute="width" constant="326" id="tjV-ih-rBv"/>
+                        </constraints>
+                    </imageView>
+                    <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXp-5y-PCz">
+                        <rect key="frame" x="10" y="5" width="326" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ML9-Rv-HfC">
+                                <rect key="frame" x="106.5" y="39.5" width="113" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Clothes">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="34"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="FZl-eT-SF3"/>
+                            <constraint firstItem="ML9-Rv-HfC" firstAttribute="centerX" secondItem="qXp-5y-PCz" secondAttribute="centerX" id="Xfb-vK-kTF"/>
+                            <constraint firstAttribute="width" constant="326" id="sgg-RP-9xH"/>
+                            <constraint firstItem="ML9-Rv-HfC" firstAttribute="centerY" secondItem="qXp-5y-PCz" secondAttribute="centerY" id="xTI-h2-6Px"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="u4k-U0-wfw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="By9-sb-ZK8"/>
+                    <constraint firstItem="qXp-5y-PCz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Ert-TJ-4bh"/>
+                    <constraint firstAttribute="trailing" secondItem="qXp-5y-PCz" secondAttribute="trailing" constant="10" id="I9C-Sr-N8A"/>
+                    <constraint firstAttribute="bottom" secondItem="qXp-5y-PCz" secondAttribute="bottom" constant="5" id="LSM-xr-zlb"/>
+                    <constraint firstItem="u4k-U0-wfw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Qgh-5G-MDm"/>
+                    <constraint firstAttribute="trailing" secondItem="u4k-U0-wfw" secondAttribute="trailing" constant="10" id="las-gf-QsL"/>
+                    <constraint firstAttribute="bottom" secondItem="u4k-U0-wfw" secondAttribute="bottom" constant="5" id="wtM-sq-dVp"/>
+                    <constraint firstItem="qXp-5y-PCz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="yD5-Ee-cGU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryImage" destination="u4k-U0-wfw" id="unY-pF-77r"/>
+                <outlet property="categoryLabel" destination="ML9-Rv-HfC" id="90L-fF-hRV"/>
+                <outlet property="view" destination="qXp-5y-PCz" id="Mxm-YQ-5uA"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="159.70982142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Clothes" width="125" height="83"/>
+    </resources>
+</document>

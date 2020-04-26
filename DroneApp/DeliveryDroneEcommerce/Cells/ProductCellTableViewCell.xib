@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell2" rowHeight="194" id="inY-UF-zs5" customClass="ProductCellTableViewCell" customModule="DeliveryDroneEcommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="inY-UF-zs5" id="O5q-WQ-TGq">
+                <rect key="frame" x="0.0" y="0.0" width="387" height="194"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEO-vk-rhU">
+                        <rect key="frame" x="110.5" y="10" width="166" height="33"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Product Title">
+                                <attributes>
+                                    <font key="NSFont" size="28" name="Palatino-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-2W-Paf">
+                        <rect key="frame" x="20" y="50.5" width="180" height="133.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="133.5" id="el4-Yh-to8"/>
+                            <constraint firstAttribute="width" constant="180" id="hdL-jI-pa6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cag-5P-guv">
+                        <rect key="frame" x="258" y="128.5" width="74" height="24"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ordered: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9Z-6h-XF5">
+                        <rect key="frame" x="239.5" y="152" width="111" height="24"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 15.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9X-sh-lhS">
+                        <rect key="frame" x="240" y="63" width="111" height="33"/>
+                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DF8-Rr-0jF">
+                        <rect key="frame" x="7" y="16" width="39.5" height="21"/>
+                        <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cag-5P-guv" firstAttribute="leading" secondItem="Ozg-2W-Paf" secondAttribute="trailing" constant="58" id="4bE-eQ-IFP"/>
+                    <constraint firstItem="jEO-vk-rhU" firstAttribute="centerX" secondItem="O5q-WQ-TGq" secondAttribute="centerX" id="88Q-4D-sdQ"/>
+                    <constraint firstItem="f9Z-6h-XF5" firstAttribute="leading" secondItem="Ozg-2W-Paf" secondAttribute="trailing" constant="39.5" id="A28-cy-vvC"/>
+                    <constraint firstItem="cag-5P-guv" firstAttribute="top" secondItem="X9X-sh-lhS" secondAttribute="bottom" constant="32.5" id="BXB-Me-GDN"/>
+                    <constraint firstItem="f9Z-6h-XF5" firstAttribute="top" secondItem="cag-5P-guv" secondAttribute="bottom" constant="-0.5" id="Gya-eG-RLe"/>
+                    <constraint firstItem="cag-5P-guv" firstAttribute="centerX" secondItem="f9Z-6h-XF5" secondAttribute="centerX" id="JE8-iW-zXZ"/>
+                    <constraint firstAttribute="trailing" secondItem="X9X-sh-lhS" secondAttribute="trailing" constant="36" id="K61-Hb-vUm"/>
+                    <constraint firstItem="DF8-Rr-0jF" firstAttribute="centerY" secondItem="jEO-vk-rhU" secondAttribute="centerY" id="M5A-U6-6sm"/>
+                    <constraint firstItem="X9X-sh-lhS" firstAttribute="top" secondItem="O5q-WQ-TGq" secondAttribute="top" constant="63" id="Mgw-wz-St1"/>
+                    <constraint firstItem="DF8-Rr-0jF" firstAttribute="leading" secondItem="O5q-WQ-TGq" secondAttribute="leading" constant="7" id="OJ9-76-RnE"/>
+                    <constraint firstItem="Ozg-2W-Paf" firstAttribute="leading" secondItem="O5q-WQ-TGq" secondAttribute="leading" constant="20" id="W5P-gR-rdM"/>
+                    <constraint firstItem="X9X-sh-lhS" firstAttribute="leading" secondItem="Ozg-2W-Paf" secondAttribute="trailing" constant="40" id="X04-Vd-dFE"/>
+                    <constraint firstAttribute="bottom" secondItem="Ozg-2W-Paf" secondAttribute="bottom" constant="10" id="YpN-X8-UJI"/>
+                    <constraint firstItem="jEO-vk-rhU" firstAttribute="top" secondItem="O5q-WQ-TGq" secondAttribute="top" constant="10" id="k5N-AD-mf5"/>
+                    <constraint firstAttribute="bottom" secondItem="f9Z-6h-XF5" secondAttribute="bottom" constant="18" id="kbL-4C-zew"/>
+                    <constraint firstItem="Ozg-2W-Paf" firstAttribute="top" secondItem="jEO-vk-rhU" secondAttribute="bottom" constant="7.5" id="m94-t5-rdC"/>
+                    <constraint firstItem="DF8-Rr-0jF" firstAttribute="top" secondItem="O5q-WQ-TGq" secondAttribute="top" constant="16" id="nPB-Ss-Bf6"/>
+                    <constraint firstAttribute="trailing" secondItem="cag-5P-guv" secondAttribute="trailing" constant="55" id="oA8-1M-03O"/>
+                    <constraint firstAttribute="trailing" secondItem="f9Z-6h-XF5" secondAttribute="trailing" constant="36.5" id="pk3-Tf-6DK"/>
+                    <constraint firstAttribute="trailing" secondItem="Ozg-2W-Paf" secondAttribute="trailing" constant="187" id="vSd-De-J2d"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="mES-X8-Y50"/>
+            <connections>
+                <outlet property="amountLeft" destination="cag-5P-guv" id="XBo-EO-u6g"/>
+                <outlet property="category" destination="DF8-Rr-0jF" id="MPr-1o-kgk"/>
+                <outlet property="orderedAmt" destination="f9Z-6h-XF5" id="c9B-WK-qwa"/>
+                <outlet property="price" destination="X9X-sh-lhS" id="GLG-Qb-2wS"/>
+                <outlet property="prodImage" destination="Ozg-2W-Paf" id="BK8-m9-tMM"/>
+                <outlet property="title" destination="jEO-vk-rhU" id="UGQ-g0-DfS"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_DeliveryDroneEcommerce {
+  umbrella header "Pods-DeliveryDroneEcommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

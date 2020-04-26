@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "38C50140-5299-41FC-805D-AF5BC6B240BF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D9F9CB1-4157-42CB-9EF0-7BB39FA76D2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeliveryDroneEcommerce/View Controllers/CompanySignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B837D54-1071-4999-8326-D7BFA5CB3DD1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeliveryDroneEcommerce/View Controllers/CustomerView/DisplayedCompanyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "retrieveCompanies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B837D54-1071-4999-8326-D7BFA5CB3DD1 - 203cf644f4484b39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in DeliveryDroneEcommerce.DisplayedCompanyViewController.retrieveCompanies() -&gt; ()"
+                  moduleName = "DeliveryDroneEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gavinwong/Desktop/Repos/DroneEcommerceApp/DeliveryDroneEcommerce/View%20Controllers/CustomerView/DisplayedCompanyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "2804">
+               </Location>
+               <Location
+                  uuid = "5B837D54-1071-4999-8326-D7BFA5CB3DD1 - ae44ec30db6c0531"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in DeliveryDroneEcommerce.DisplayedCompanyViewController.retrieveCompanies() -&gt; ()"
+                  moduleName = "DeliveryDroneEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gavinwong/Desktop/Repos/DroneEcommerceApp/DeliveryDroneEcommerce/View%20Controllers/CustomerView/DisplayedCompanyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "270">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97F98DD4-84D2-4303-B20C-4A7D3D284A7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeliveryDroneEcommerce/View Controllers/CustomerView/DisplayedCompanyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
