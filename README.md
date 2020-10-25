@@ -2,7 +2,7 @@
 
 ## DroneDeepLearningAlgorithm: Created by Allen Ye and Anant Bhatia
 
-Paper and project summary here: https://drive.google.com/drive/u/3/folders/1IlKEk60zxq8dQnekGxOkYXngBuomAFQA
+## To visit this project and see the research paper and visuals, please visit our github repository here: https://github.com/allenye66/Deep-Learning-Autonomous-Drones
 
 Here is a conglomeration of file depcting the code we wrote to create an autonomous drone using a CNN-LSTM model to aid in food and package delivery during the 2020 quarantine.
 
