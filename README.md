@@ -1,6 +1,7 @@
 # Autonomous-Drone-Delivery-System
 
-## DroneDeepLearningAlgorithm
+## DroneDeepLearningAlgorithm: Created by Allen Ye and Anant Bhatia
+
 Paper and project summary here: https://drive.google.com/drive/u/3/folders/1IlKEk60zxq8dQnekGxOkYXngBuomAFQA
 
 Here is a conglomeration of file depcting the code we wrote to create an autonomous drone using a CNN-LSTM model to aid in food and package delivery during the 2020 quarantine.
@@ -17,7 +18,7 @@ Trial.py: This is the script to fly the actualy drone.
 
 UserModelLibraries: This is the final conglomeration of all of our code - the probability functions, models, and pre/post processing function used to run our algorithms.
 
-## IOSDroneApp
+## IOSDroneApp: Created by Michael Peng and Gavin Wong
 An IOS Application that compliments a Autonomous Drone Algorithm. The App is an online store that simulates deliveries processed by drones. Features such as drone location tracking and order processing are included.
 
 Demo: https://www.youtube.com/watch?v=bujF-BaPpMw&t=120s
